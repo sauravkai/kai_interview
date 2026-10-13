@@ -3,8 +3,6 @@ const SCHEDULED_INTERVIEWS_KEY = 'interview_ai_scheduled_sessions';
 
 const normalizeEmail = (value = '') => String(value || '').trim().toLowerCase();
 
-const normalizeEmail = (value = '') => String(value || '').trim().toLowerCase();
-
 export const getStoredNotifications = () => {
   if (typeof window === 'undefined') return [];
 
